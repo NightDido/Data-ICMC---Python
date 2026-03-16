@@ -3,4 +3,4 @@ Este repositório contém meus estudos e exercícios realizados durante o curso 
 
 O foco é a base de programação para Ciência de Dados e Estatística.
 
-*Estudos realizados por Rodrigo - Graduando em Estatística (ENCE)*
+*Estudos realizados por Rodrigo Sartor Pinheiro - Graduando em Estatística (ENCE)*
