@@ -14,10 +14,16 @@ while (altura <=0):
     altura = int(input("Digite um valor diferente para a altura: "))
 
 for i in range(altura):
-    for j in range (altura - (i + 1)):
+    for j in range (altura - (i + 1)): #número de espaços necessários até a #
         print(" ", end="")
     
-    for _ in range (i + 1):
+    for _ in range (i + 1): #número de hastags para formar a pirâmide
         print("#", end="")
     
-    print()
+    print() #como temos o end="", precisamos dar um espaço para cada linha
+
+#forma mais eficiente:
+
+for i in range(altura):
+    print(" " * (altura - (i + 1)) + "#" * (i + 1)) #fazemos um print de espaços baseados na altura escohlida pelo usuário -1, depois adicionamos uma hashtag. No próximo i, temos espaçoes até a altura -2 e 2 hashtags.
+    
