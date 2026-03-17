@@ -4,7 +4,7 @@
 def vetor_combinado (vetor1, vetor2):
     novo_vetor = []
 
-    novo_vetor.append(max(vetor1))
+    novo_vetor.append(max(vetor1)) #Poderiamos utilizar a função do Exercício 1, porém, como existe "max".
     novo_vetor.append(max(vetor2))
 
     return novo_vetor
@@ -14,4 +14,4 @@ vetor2 = [30,1,2]
 
 NovoVetor = vetor_combinado(vetor1,vetor2)
 
-print(NovoVetor)
+print(NovoVetor) #Retornará [3, 30]
