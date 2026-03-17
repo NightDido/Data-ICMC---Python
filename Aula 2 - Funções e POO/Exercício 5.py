@@ -12,4 +12,4 @@ def Maiorque5 (ListaPalavras):
 
 Palavras = ["Olá", "Paralelepipedo", "Python", "ICMC", "Data", "DataICMC"]
 
-print(Maiorque5(Palavras))
+print(Maiorque5(Palavras)) #Retornará o valor 3.
